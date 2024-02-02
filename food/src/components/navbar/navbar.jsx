@@ -9,8 +9,8 @@ function Navbar() {
 
       <div className="menu">
         <a href="#">Historico</a>
-        <button>
-          <img src={bag} />
+        <button className="btn btn-red">
+          <img src={bag} className="icon" />
           sacola
         </button>
       </div>
